@@ -1,0 +1,119 @@
+.content{
+    background-color:#0C090A;
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    border: 10px;
+    border-style: solid;
+    color:  #FEFCFF;
+    padding: 0;
+}
+body.html{
+    overflow-x: hidden;
+}
+.san {
+    width: 100%;
+    height: auto;
+    background-color: #E5E4E2;
+    border: 10px;
+    border-style: solid;
+    color: #36013F;
+}
+.san img{
+    margin-top: 20px;
+    width: 1295px;  
+    margin-left: 20px;
+    opacity: .5;
+    transition: .5s ease-in ;
+}
+.san img:hover{
+    opacity: 1;
+}
+.san h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25PX;
+}
+.san p{
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color:#3B3131 ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.details ul li {
+    display:inline-block;
+}
+.details ul li a{
+    text-decoration: none;
+    margin:88px;
+    color:#F5FFFA ;
+}
+.details ul{
+    background-color:#2B1B17;
+    height: 15px;
+    padding: 20px 8px;
+    display: flex;
+    align-items: center;
+}
+.details ul li a:hover{
+    color:red;
+}
+@media only screen and (max-width:700px)
+{
+     .content{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+     }
+    .san{
+        width: auto;
+        margin-top: 20px;
+        height: auto;
+        background-color:#FEFCFF;
+        border:none;
+    }
+    .san p{
+        font-size: 4vmin;
+    }
+    .san img{
+        width: 90%;
+        height: 70%;
+        display: flex;
+        opacity: .5;
+        transition: .5s ease-in ;
+    }
+    .content img{ 
+        width: 100%;
+        height: 90%;
+         display: flex;
+        opacity: .5;
+        transition: .5s ease-in ;
+    } 
+    .san img:hover{
+        opacity:1;
+    }
+    .details ul li {
+        display: inline-block;
+    }
+    .details ul li a{
+        text-decoration: none;
+        margin:5px;
+        color:#F5FFFA ;
+    }
+    .details ul{
+        background-color:#2B1B17;
+        height: 15px;
+        padding: 25px 5px;
+        display: flex;
+        align-items: center;
+    }
+   
+}
